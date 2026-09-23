@@ -34,3 +34,9 @@ form.addEventListener("submit", function(event) {
 
     form.reset();
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const demo = document.getElementById("demo");
+
+    demo.textContent = "IPL 2026 brings together the best cricket teams for exciting matches, great performances, and unforgettable moments for cricket fans.";
+});
